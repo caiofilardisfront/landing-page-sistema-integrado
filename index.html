@@ -12,7 +12,7 @@
 
     <header id="main-header">
         <div class="container header-container">
-            <a href="#" class="logo">Azúcar Morena</a>
+            <a href="#" class="logo">Pâmela Abreu Confeiteira</a>
             <nav>
                 <ul class="nav-links" id="nav-links">
                     <li><a href="#home" onclick="toggleMenu()">Início</a></li>
@@ -30,28 +30,29 @@
         <div class="slides-container" id="slider-track">
             
             <div class="slide active">
-                <div class="slide-bg" style="background-image: url('https://images.unsplash.com/photo-1578985545062-69928b1d9587?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80');"></div>
+                <div class="slide-bg primeiro" style="background-image: url('./img/imagem-bolo-slide-01.avif');"></div>
                 <div class="hero-content">
-                    <h1>Azúcar Morena</h1>
-                    <p>Confeitaria artesanal onde cada doce conta uma história de amor.</p>
+                    <h1>Pâmela Abreu Confeiteira</h1>
+                    <h3>🍰Doces artesanais para momentos especiais</h3>
+                    <!-- <p>📦Sob encomenda | Campinas SP</p> -->
                     <a href="#products" class="btn btn-hero">Ver Cardápio</a>
                 </div>
             </div>
 
             <div class="slide">
-                <div class="slide-bg" style="background-image: url('https://i.pinimg.com/originals/c3/10/c8/c310c83f5aa85c825151c22d36fcd586.jpg');"></div>
+                <div class="slide-bg segundo" style="background-image: url('./img/imagem-bolo-slide-02.png');"></div>
                 <div class="hero-content">
                     <h1>Bolos de Festa</h1>
-                    <p>Torne sua celebração inesquecível com nossos sabores exclusivos.</p>
+                    <h3>Torne sua celebração inesquecível com nossos sabores exclusivos.</h3>
                     <a href="#products" class="btn btn-hero">Encomendar</a>
                 </div>
             </div>
 
             <div class="slide">
-                <div class="slide-bg" style="background-image: url('https://images.unsplash.com/photo-1495147466023-ac5c588e2e94?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80');"></div>
+                <div class="slide-bg terceiro" style="background-image: url('./img/imagem-bolo-slide-03.png');"></div>
                 <div class="hero-content">
                     <h1>Café & Doces</h1>
-                    <p>A combinação perfeita para sua tarde. Cookies, brownies e muito mais.</p>
+                    <h3>A combinação perfeita para sua tarde. Cookies, brownies e muito mais.</h3>
                     <a href="#products" class="btn btn-hero">Pedir Agora</a>
                 </div>
             </div>
@@ -90,14 +91,14 @@
         <div class="container">
             <div class="story-content">
                 <div class="story-img">
-                    <img src="https://images.unsplash.com/photo-1519699047748-de8e457a634e?ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80" alt="História">
+                    <img src="./img/Logo(353x129).png" alt="História">
                 </div>
                 <div class="story-text">
-                    <div class="section-title" style="text-align: left; margin-bottom: 20px;">
-                        <h2 style="color: white; font-size: 2rem;">Nossa Essência</h2>
+                    <div class="section-title">
+                        <h2>Nossa Essência</h2>
                     </div>
-                    <p style="color: white; font-size: 1.1rem; opacity: 0.9;" contenteditable="true">A Azúcar Morena nasceu do desejo de resgatar o sabor da infância na cozinha da vovó.</p>
-                    <p style="color: white; font-size: 1.1rem; opacity: 0.9;" contenteditable="true">Hoje, mantemos viva essa tradição, selecionando os melhores ingredientes e colocando uma pitada de amor em cada receita.</p>
+                    <p contenteditable="true">A Azúcar Morena nasceu do desejo de resgatar o sabor da infância na cozinha da vovó.</p>
+                    <p contenteditable="true">Hoje, mantemos viva essa tradição, selecionando os melhores ingredientes e colocando uma pitada de amor em cada receita.</p>
                 </div>
             </div>
         </div>
@@ -121,19 +122,52 @@
     </section>
 
     <section id="contact" class="section contact">
-        <div class="container">
-            <div class="section-title"><h2>Contato</h2></div>
-            <div class="social-links">
-                <a href="#"><i class="fab fa-instagram"></i></a>
-                <a href="#"><i class="fab fa-whatsapp"></i></a>
-                <a href="#"><i class="fab fa-facebook-f"></i></a>
+    <div class="container">
+        <div class="section-title">
+            <h2>Fale Conosco</h2>
+            <p>Estamos prontos para adoçar o seu dia</p>
+        </div>
+
+        <div class="contact-card">
+            <div class="contact-grid">
+                <div class="info-item">
+                    <div class="icon-box"><i class="fas fa-map-marker-alt"></i></div>
+                    <h3>Localização</h3>
+                    <p>Manizales, Colômbia</p>
+                </div>
+
+                <div class="info-item">
+                    <div class="icon-box"><i class="fas fa-envelope"></i></div>
+                    <h3>E-mail</h3>
+                    <p>contato@azucarmorena.com</p>
+                </div>
+
+                <div class="info-item">
+                    <div class="icon-box"><i class="fas fa-phone-alt"></i></div>
+                    <h3>Telefone</h3>
+                    <p>+57 (606) 123-4567</p>
+                </div>
+
+                <div class="info-item">
+                    <div class="icon-box"><i class="fas fa-clock"></i></div>
+                    <h3>Horário</h3>
+                    <p>Seg - Sáb: 09:00 - 18:00</p>
+                </div>
             </div>
-            <div class="contact-info">
-                <p><i class="fas fa-map-marker-alt" style="color:var(--secondary)"></i> Manizales, Colômbia</p>
-                <p><i class="fas fa-envelope" style="color:var(--secondary)"></i> contato@azucarmorena.com</p>
+
+            <hr class="contact-divider">
+
+            <div class="social-area">
+                <h3>Siga-nos</h3>
+                <div class="social-links">
+                    <a href="#" title="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" title="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                    <a href="#" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+                </div>
             </div>
         </div>
-    </section>
+    </div>
+</section>
 
     <footer>
         <div class="container"><p>&copy; <span id="year"></span> Azúcar Morena.</p></div>
@@ -243,5 +277,6 @@
 
         <script src="scripts/dados.js"></script>
         <script src="scripts/scripts.js"></script>
+        
 </body>
 </html>
